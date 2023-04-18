@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>homework4</title>
+    <title>homework3</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,39 +20,40 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
+      <div class="containerHeader">
         <nav class="nav">
           <a class="logo" href="./index.html"
             ><span class="web">Web</span><span class="studio">Studio</span></a
           >
-          <ul class="nav">
-            <li class="item"><a href="./index.html" class="link">Agency</a></li>
+          <ul class="navList">
+            <li class="item">
+              <a href="./index.html" class="link">Agency</a>
+            </li>
             <li class="item">
               <a class="link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="item"><a href="#" class="link">Contacts</a></li>
           </ul>
-
-          <ul class="contact">
-            <li class="itemNav2">
-              <a href="mailto:webmaster@example.com" class="mailto">Jon Doe</a>
-            </li>
-            <li class="itemNav2">
-              <a href="tel:9308102393434" class="tel1">+93 08102393434</a>
-            </li>
-          </ul>
         </nav>
+        <ul class="contact">
+          <li class="itemNav2">
+            <a href="mailto:webmaster@example.com" class="mailto">Jon Doe</a>
+          </li>
+          <li class="itemNav2">
+            <a href="tel:9308102393434" class="tel1">+93 08102393434</a>
+          </li>
+        </ul>
       </div>
     </header>
-
-    <div class="buttonsP">
-      <button type="button" class="buttonP">Design</button>
-      <button type="button" class="buttonP">All</button>
-      <button type="button" class="buttonP">Pages</button>
-      <button type="button" class="buttonP">Apps</button>
-      <button type="button" class="buttonP">Marketing</button>
-    </div>
     <section>
+      <div class="buttonsP">
+        <button type="button" class="buttonP">Design</button>
+        <button type="button" class="buttonP">All</button>
+        <button type="button" class="buttonP">Pages</button>
+        <button type="button" class="buttonP">Apps</button>
+        <button type="button" class="buttonP">Marketing</button>
+      </div>
+
       <div class="container">
         <ul class="img-set2">
           <li class="item2">
@@ -105,7 +106,7 @@
               alt="The picture shows two boxes"
               width="370"
             />
-            <div>
+            <div class="description2">
               <h3 class="signature">Projekt Boxes</h3>
               <p class="signatureP">App</p>
             </div>
@@ -157,16 +158,20 @@
         </ul>
       </div>
     </section>
-    <footer class="footer">
-      <div class="container">
-        <a class="logo" href="index.html"
-          ><span class="web">Web</span><span class="stu">Studio</span></a
-        >
-        <address class="address">
-          Box 564, Disneyland, USA<br />
-          <a href="mailto:webmaster@example.com">webmaster@example.com</a><br />
-          <a class="tel" href="tel:9308102393434">+93 08102393434</a><br />
-        </address>
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <a class="logo" href="index.html"
+            ><span class="web">Web</span><span class="stu">Studio</span></a
+          >
+          <address class="address">
+            Box 564, Disneyland, USA<br />
+            <a class="emailWebmaster" href="mailto:webmaster@example.com"
+              >webmaster@example.com</a
+            >
+            <a class="tel" href="tel:9308102393434">+93 08102393434</a><br />
+          </address>
+        </div>
       </div>
     </footer>
   </body>

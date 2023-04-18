@@ -7,7 +7,11 @@ body {
   margin: 0 auto;
 }
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  margin-right: 93px;
 }
 .logo:hover {
   text-decoration: none;
@@ -74,16 +78,14 @@ ul {
 }
 .button {
   width: 200px;
-  height: 50px;
   letter-spacing: 0.03em;
-  line-height: 30px;
+  line-height: 1.9;
   font-size: 16px;
   font-weight: 700;
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
   padding: 6px 22px;
-  margin-bottom: 240px;
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -100,32 +102,36 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-top: 10px;
 }
-section {
-  background: #ffffff;
-}
-.primary-box {
-  background-color: #2f303a;
-  max-height: 600px;
-}
+
 h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  margin-top: 200px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   color: #ffffff;
+  text-align: center;
 }
 .sectionHeading {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.backgroundColor {
+  background-color: #f5f4fa;
+}
+h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 50px;
-  margin-top: 94px;
-  display: flex;
-  justify-content: center;
 }
 .name {
   font-weight: 500;
@@ -156,10 +162,7 @@ h1 {
 }
 .footer {
   background: #2f303a;
-  margin-top: 94px;
-  height: 252px;
-  display: flex;
-  align-items: center;
+  padding-top: 60px;
 }
 .address {
   font-family: "Roboto";
@@ -170,6 +173,9 @@ h1 {
   background: #2f303a;
   letter-spacing: 0.03em;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: 9px;
   padding-top: 20px;
 }
 .address a {
@@ -178,18 +184,11 @@ h1 {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.contact {
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
+.emailWebmaster {
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
-.itemNav2 {
-  padding-left: 25px;
-  display: flex;
-  justify-content: space-between;
-}
+
 .tel {
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -218,17 +217,23 @@ h1 {
 }
 .container {
   max-width: 1200px;
-  width: 100%;
   margin: 0 auto;
-  padding-top: 0;
   padding: 0 15px;
-  justify-items: center;
-  align-items: center;
+}
+.containerHeader {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 25px;
+  display: flex;
+  justify-content: space-between;
 }
 .primary-box {
+  background-color: #2f303a;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .loremIpsum {
   display: flex;
@@ -249,16 +254,6 @@ h1 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-.page-header {
-  height: 80px;
-  /*  Making header.page-header a Flex-container and aligning elements  */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #ececec;
-  margin: 0;
-  padding: 0;
 }
 .buttonsP {
   display: flex;
@@ -281,8 +276,7 @@ h1 {
   margin-bottom: 30px;
 }
 .buttonsP {
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .item2 {
   /*  Set the width of the elements*/
@@ -294,26 +288,40 @@ h1 {
   justify-content: center;
   gap: 30px;
   padding: 0;
-  padding-bottom: 94px;
+}
+.page-header {
+  border-bottom: 1px solid #ececec;
 }
 .nav {
   display: flex;
-  justify-content: space-between;
+  max-width: 492px;
   align-items: center;
 }
-.nav .item {
-  margin-right: 50px;
+.navList {
+  width: 254px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
-
+.contact {
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.itemNav2 {
+  padding-left: 50px;
+}
 img {
   display: flex;
 }
 .description2 {
-  margin: 20px 24px 20px 24px;
+  padding: 20px 24px 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
-.nav2 {
-}
-
 .post {
   max-width: 600px;
   padding: 20px;
@@ -325,10 +333,12 @@ img {
   box-shadow: 0 2.8px 2.2px red, 0 6.7px 5.3px blue, 0 12.5px 10px green,
     0 22.3px 17.9px purple, 0 41.8px 33.4px orange, 0 100px 80px teal;
 }
-
 .post-title {
   margin-top: 0;
 }
 .post-text {
   margin-bottom: 0;
+}
+.item {
+  margin-right: 46px;
 }
