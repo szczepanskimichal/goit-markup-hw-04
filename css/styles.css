@@ -163,6 +163,7 @@ h2 {
 .footer {
   background: #2f303a;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .address {
   font-family: "Roboto";
@@ -231,7 +232,7 @@ h2 {
   background-color: #2f303a;
   align-items: center;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   display: flex;
   flex-direction: column;
 }
