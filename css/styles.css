@@ -343,3 +343,15 @@ img {
 .item {
   margin-right: 46px;
 }
+/*<----------------------------------------------->*/
+.pictureLoremIpsum {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.media {
+  height: 20px;
+  width: 20px;
+}
