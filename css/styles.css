@@ -160,6 +160,7 @@ h2 {
   line-height: 1.2;
   color: #212121;
   margin-top: 10px;
+  margin-bottom: 16px;
 }
 .footer {
   background: #2f303a;
@@ -389,6 +390,10 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.footerMedia {
+  display: flex;
+  padding-top: 20px;
+}
 .media {
   background-color: rgba(255, 255, 255, 0.1);
   height: 44px;
@@ -400,4 +405,8 @@ h4 {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
+}
+.joinUs {
+  align-items: center;
+  justify-content: center;
 }
