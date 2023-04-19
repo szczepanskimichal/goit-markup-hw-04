@@ -312,7 +312,14 @@ h2 {
   align-items: center;
 }
 .itemNav2 {
-  padding-left: 50px;
+  /*padding-left: 50px;*/
+}
+.envelope {
+  margin-right: 10px;
+}
+.smartphone {
+  margin-right: 10px;
+  margin-left: 30px;
 }
 img {
   display: flex;
@@ -351,16 +358,16 @@ img {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.oursCustomers {
-  display: flex;
-
-  padding-top: 94px;
-  justify-content: space-between;
+.ourCustomers {
+  padding-bottom: 50px;
+  align-items: center;
 }
 .customers {
-  width: 170px;
-  height: 92px;
-  padding-bottom: 50px;
+  max-width: 170px;
+  max-height: 92px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  align-items: center;
+  color: rgba(175, 177, 184, 1);
 }
 .media {
   background-color: rgba(255, 255, 255, 0.1);
