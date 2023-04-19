@@ -83,6 +83,7 @@ ul {
   font-size: 16px;
   font-weight: 700;
   background-color: #2196f3;
+  border: 0;
   color: #ffffff;
   cursor: pointer;
   padding: 6px 22px;
@@ -229,7 +230,7 @@ h2 {
   justify-content: space-between;
 }
 .primary-box {
-  background-color: #2f303a;
+  background-image: url(/images/img.jpg);
   align-items: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -316,10 +317,20 @@ h2 {
 }
 .envelope {
   margin-right: 10px;
+  cursor: pointer;
+  color: #757575;
+  align-items: center;
 }
 .smartphone {
   margin-right: 10px;
   margin-left: 30px;
+  cursor: pointer;
+  color: #757575;
+  align-items: center;
+}
+.smartphone:hover,
+.envelope:hover {
+  fill: #2196f3;
 }
 img {
   display: flex;
@@ -355,8 +366,13 @@ img {
   width: 270px;
   height: 120px;
   background: #f5f4fa;
+  align-items: center;
+  justify-content: center;
+  contain: ;
   border-radius: 4px;
   margin-bottom: 30px;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 .ourCustomers {
   padding-bottom: 50px;
@@ -369,13 +385,15 @@ img {
   align-items: center;
   color: rgba(175, 177, 184, 1);
 }
+.sosialMedia {
+  align-items: center;
+  display: flex;
+}
 .media {
   background-color: rgba(255, 255, 255, 0.1);
   height: 44px;
   width: 44px;
   padding: 12px 0;
-  border-radius: 50%;
-  justify-content: space-between;
 }
 
 h4 {
