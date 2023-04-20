@@ -397,7 +397,6 @@ img {
 }
 .footerMedia {
   padding-left: 0;
-  display: flex;
 }
 .media {
   display: flex;
@@ -432,10 +431,6 @@ h4 {
   text-align: center;
 }
 .joinUs {
-  position: relative;
-  display: flex;
-  justify-content: center;
-
   width: 206px;
   height: 80px;
   margin-top: 72px;
@@ -443,14 +438,7 @@ h4 {
   left: 531px;
   bottom: 72px;
 }
-.itemFooterMedia {
-  margin-right: 10px;
-}
 
-.pudeloeczko {
-  display: flex;
-  align-items: center;
-}
 .joinUsProperties {
   color: white;
   font-weight: 700;
