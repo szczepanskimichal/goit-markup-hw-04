@@ -391,8 +391,6 @@ img {
   padding: 12px;
   display: flex;
   gap: 10px;
-
-  border-radius: 50%;
 }
 .footerMedia {
   padding-left: 0;
@@ -410,8 +408,10 @@ img {
   padding: 12px;*/
 }
 .borderMedia {
-  border-color: #2196f3;
-  border-style: 30px dashed;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
 }
 .media:hover,
 .media:focus,
