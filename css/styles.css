@@ -378,13 +378,24 @@ img {
 .ourCustomers {
   padding-bottom: 50px;
   align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 30px;
 }
 .customers {
   max-width: 170px;
   max-height: 92px;
   border: 1px solid rgba(175, 177, 184, 1);
   align-items: center;
-  color: rgba(175, 177, 184, 1);
+  margin-left: 15px;
+  padding: 20px;
+  fill: rgba(175, 177, 184, 1);
+  cursor: pointer;
+}
+.customers:hover,
+.customers:focus {
+  border: 1px solid #2196f3;
+  fill: white;
 }
 .sosialMedia {
   fill: #afb1b8;
@@ -416,6 +427,7 @@ img {
   width: 44px;
   border-radius: 50%;
 }
+
 .borderMedia:hover,
 .borderMedia:focus,
 .customers:hover,
