@@ -386,7 +386,9 @@ img {
 .ourCustomers {
   padding-bottom: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 .customersBorder {
   border: 1px solid rgba(175, 177, 184, 1);
