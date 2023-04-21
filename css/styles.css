@@ -421,9 +421,6 @@ img {
 .customers:hover,
 .customers:focus {
   background-color: #2196f3;
-  padding: 12px;
-  border-radius: 50%;
-  background-size: 44px;
 }
 .media:hover,
 .media:focus {
