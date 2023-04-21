@@ -385,13 +385,17 @@ img {
 }
 .ourCustomers {
   padding-bottom: 50px;
+  padding-left: 0;
 }
 .customersBorder {
-  display: inline-flex;
+  display: flex;
+  padding-left: 0;
+  margin-left: 0;
 }
 .ourCustomers:nth-last-child() {
   margin-right: 0;
 }
+
 .customers {
   fill: rgba(175, 177, 184, 1);
   border: 1px solid rgba(175, 177, 184, 1);
@@ -399,7 +403,8 @@ img {
   width: 170px;
   height: 92px;
   cursor: pointer;
-  margin-right: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 .customers:hover,
 .customers:focus {
