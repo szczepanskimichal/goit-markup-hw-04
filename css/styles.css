@@ -314,23 +314,23 @@ h2 {
   align-items: center;
 }
 .itemNav2 {
-  /*padding-left: 50px;*/
+  display: flex;
+  justify-content: center;
 }
 .envelope {
   margin-right: 10px;
   cursor: pointer;
   fill: #757575;
-  align-content: center;
-  width: 16px;
-  height: 12px;
+  width: 32px;
+  height: 20px;
 }
 .smartphone {
   margin-right: 10px;
   margin-left: 30px;
   cursor: pointer;
   fill: #757575;
-  width: 10px;
-  height: 16px;
+  width: 20px;
+  height: 30px;
 }
 .smartphone:hover,
 .envelope:hover {
@@ -386,9 +386,10 @@ img {
   gap: 30px;
 }
 .customers {
-  max-width: 170px;
-  max-height: 92px;
+  width: 170px;
+  height: 92px;
   border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
   align-items: center;
   margin-left: 15px;
   padding: 20px;
@@ -398,7 +399,7 @@ img {
 .customers:hover,
 .customers:focus {
   border: 1px solid #2196f3;
-  fill: white;
+  fill: #2196f3;
 }
 .sosialMedia {
   fill: #afb1b8;
@@ -429,9 +430,7 @@ img {
 }
 
 .borderMedia:hover,
-.borderMedia:focus,
-.customers:hover,
-.customers:focus {
+.borderMedia:focus {
   background-color: #2196f3;
 }
 .media:hover,
@@ -447,6 +446,7 @@ h4 {
 }
 .joinUs {
   margin-top: 10px;
+  margin-left: 70px;
 }
 
 .joinUsProperties {
