@@ -385,20 +385,21 @@ img {
 }
 .ourCustomers {
   padding-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
 }
 .customersBorder {
-  border: 1px solid rgba(175, 177, 184, 1);
-  border-radius: 4px;
-  display: contents;
-  align-content: center;
+  display: inline-flex;
+}
+.ourCustomers:nth-last-child() {
+  margin-right: 0;
 }
 .customers {
   fill: rgba(175, 177, 184, 1);
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
   cursor: pointer;
+  margin-right: 30px;
 }
 .customers:hover,
 .customers:focus {
