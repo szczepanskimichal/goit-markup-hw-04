@@ -393,8 +393,8 @@ img {
 .customersBorder {
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
-  width: 170px;
-  height: 92px;
+  display: contents;
+  align-content: center;
 }
 .customers {
   fill: rgba(175, 177, 184, 1);
