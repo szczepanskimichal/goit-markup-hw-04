@@ -425,6 +425,12 @@ img {
   fill: #afb1b8;
   padding: 12px;
 }
+.icons {
+  fill: #ffffff;
+  height: 44px;
+  width: 44px;
+  padding: 12px;
+}
 .media:hover,
 .media:focus {
   fill: #eeeeee;
