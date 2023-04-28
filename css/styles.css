@@ -332,6 +332,7 @@ h2 {
   display: flex;
   align-items: center;
 }
+
 .itemNav2 {
   display: flex;
   justify-content: center;
@@ -344,6 +345,9 @@ h2 {
 .smartphone:hover,
 .smartphone:focus {
   fill: #2196f3;
+  svg {
+    fill: color: #2196f3;
+  }
 }
 .envelope {
   margin-right: 10px;
