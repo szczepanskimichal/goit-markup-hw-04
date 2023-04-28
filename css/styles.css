@@ -338,20 +338,22 @@ h2 {
   align-items: center;
 }
 .itemNav2:hover,
-.itemNav2:focus {
+.itemNav2:focus,
+.envelope:hover,
+.envelope:focus,
+.smartphone:hover,
+.smartphone:focus {
   fill: #2196f3;
 }
 .envelope {
   margin-right: 10px;
   margin-left: 30px;
   fill: #757575;
-  
-}*/
+}
 .smartphone {
   margin-right: 10px;
-  margin-left: 30px
+  margin-left: 30px;
   fill: #757575;
-  
 }
 /*.smartphone:hover,
 .envelope:hover {
