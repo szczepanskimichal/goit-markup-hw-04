@@ -67,6 +67,7 @@ body {
 }
 a {
   text-decoration: none;
+  fill: #2196f3;
 }
 .footer a:hover,
 .footer a:focus {
@@ -221,7 +222,11 @@ h2 {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  align-self: center;
+  align-items: center;
+  display: center;
 }
+
 .containerHeader {
   max-width: 1200px;
   margin: 0 auto;
@@ -230,6 +235,7 @@ h2 {
   justify-content: space-between;
 }
 .primary-box {
+  max-width: 1600px;
   background-image: url(../images/17.jpg);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -238,10 +244,12 @@ h2 {
     url(../images/17.jpg);
 
   align-items: center;
+  align-self: center;
   padding-top: 200px;
   padding-bottom: 200px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background-repeat: no-repeat;
 }
 .loremIpsum {
@@ -328,21 +336,24 @@ h2 {
   display: flex;
   justify-content: center;
 }
-.envelope {
+.itemNav2:hover,
+.itemNav2:focus {
+  fill: #2196f3;
+}
+/*.envelope {
   margin-right: 10px;
   cursor: pointer;
   fill: #757575;
   width: 32px;
   height: 20px;
-}
-.smartphone {
+}*/
+/*.smartphone {
   margin-right: 10px;
   margin-left: 30px;
   cursor: pointer;
   fill: #757575;
-  width: 20px;
-  height: 30px;
-}
+  
+}*/
 .smartphone:hover,
 .envelope:hover {
   fill: #2196f3;
