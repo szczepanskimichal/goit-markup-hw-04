@@ -57,6 +57,7 @@ body {
   line-height: 1.1;
   color: #757575;
 }
+
 .mailto:hover,
 .mailto:focus,
 .tel1:hover,
@@ -67,7 +68,6 @@ body {
 }
 a {
   text-decoration: none;
-  fill: #2196f3;
 }
 .footer a:hover,
 .footer a:focus {
@@ -335,29 +335,28 @@ h2 {
 .itemNav2 {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .itemNav2:hover,
 .itemNav2:focus {
   fill: #2196f3;
 }
-/*.envelope {
-  margin-right: 10px;
-  cursor: pointer;
-  fill: #757575;
-  width: 32px;
-  height: 20px;
-}*/
-/*.smartphone {
+.envelope {
   margin-right: 10px;
   margin-left: 30px;
-  cursor: pointer;
   fill: #757575;
   
 }*/
-.smartphone:hover,
+.smartphone {
+  margin-right: 10px;
+  margin-left: 30px
+  fill: #757575;
+  
+}
+/*.smartphone:hover,
 .envelope:hover {
   fill: #2196f3;
-}
+}*/
 img {
   display: flex;
 }
@@ -424,9 +423,15 @@ img {
   justify-content: center;
 }
 .customers:hover,
-.customers:focus {
+.customers:focus,
+.customersBorder:hover,
+.customersBorder:focus {
   fill: #2196f3;
   border-color: #2196f3;
+  
+  svg {
+    fill: color: #2196f3;
+  }
 }
 
 .sosialMedia {
@@ -457,10 +462,16 @@ img {
   width: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  display: flex;
+  
 }
 .borderMedia:hover,
 .borderMedia:focus {
   background-color: #2196f3;
+  color: #2196f3;
+  svg {
+    fill: color: #2196f3;
+  }
 }
 h4 {
   font-weight: 700;
