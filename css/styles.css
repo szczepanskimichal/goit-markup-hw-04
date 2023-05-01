@@ -49,11 +49,8 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.1;
   color: #757575;
-  padding-left: 10px;
   align-items: center;
-  align-self: center;
-  align-content: center;
-  
+  margin-right: 10px;
 }
 .tel1 {
   font-weight: 500;
@@ -61,10 +58,7 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.1;
   color: #757575;
-  padding-left: 10px;
   align-items: center;
-  align-self: center;
-  align-content: center;
 }
 
 .mailto:hover,
@@ -74,9 +68,17 @@ body {
 .tel1:focus,
 .link:focus {
   color: #2196f3;
- /* svg {
+  fill: #2196f3;
+  /*svg {
     fill: color: #2196f3;
   }*/
+}
+.envelope{
+  margin-right: 10px;
+}
+.smartphone{
+  margin-left: 30px;
+  margin-right: 10px;
 }
 a {
   text-decoration: none;
@@ -343,35 +345,10 @@ h2 {
   color: rgba(255, 255, 255, 0.6);
   margin: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  align-self: center;
-  align-content: center;
+ padding: 0;
 }
-
-.itemNav2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  align-self: center;
-  padding-left: 30px;
-  align-items: center;
-  align-self: center;
-  align-content: center;
-}
-.itemNav2:focus,
-.itemNav2:hover,
-.envelope:hover,
-.envelope:focus,
-.smartphone:hover,
-.smartphone:focus {
-  fill: #2196f3;
-  svg {
-    fill: color: #2196f3;
-  }
-}
-
-
 img {
   display: flex;
 }
@@ -403,17 +380,16 @@ img {
 }
 /*<----------------------------------------------->*/
 .pictureLoremIpsum {
-  width: 270px;
-  height: 120px;
-  background: #f5f4fa;
+  
+  background: #F5F4FA;
   align-items: center;
   justify-content: center;
-
   border-radius: 4px;
   margin-bottom: 30px;
   padding-bottom: 25px;
   padding-top: 25px;
 }
+
 .ourCustomers {
   padding-bottom: 50px;
   padding-left: 0;
@@ -474,18 +450,15 @@ img {
   fill: #eeeeee;
 }
 .borderMedia {
-  height: 44px;
-  width: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   display: flex;
-  
-  
 }
-.borderMedia:hover,
-.borderMedia:focus {
+.borderMedia:hover svg,
+.borderMedia:focus svg{
   background-color: #2196f3;
   color: #2196f3;
+  fill: 
 }
 h4 {
   font-weight: 700;
