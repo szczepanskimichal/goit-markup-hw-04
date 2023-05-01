@@ -411,6 +411,7 @@ img {
 }
 .sosialMedia {
   /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
   display: flex;
   gap: 10px;
   padding-left: 0;
@@ -449,6 +450,7 @@ h4 {
 }
 .joinUsProperties {
   color: white;
+  padding-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
