@@ -64,7 +64,6 @@ body {
   fill: #757575;
   display: flex;
 }
-
 .mailto:hover,
 .mailto:focus,
 .tel1:hover,
@@ -73,14 +72,11 @@ body {
 .link:focus {
   color: #2196f3;
   fill: #2196f3;
-  /*svg {
-    fill: color: #2196f3;
-  }*/
 }
-.envelope{
+.envelope {
   margin-right: 10px;
 }
-.smartphone{
+.smartphone {
   margin-left: 30px;
   margin-right: 10px;
 }
@@ -209,7 +205,6 @@ h2 {
   padding-top: 9px;
   padding-bottom: 9px;
 }
-
 .tel {
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -244,7 +239,6 @@ h2 {
   align-items: center;
   display: center;
 }
-
 .containerHeader {
   max-width: 1200px;
   margin: 0 auto;
@@ -347,13 +341,8 @@ h2 {
 .contact {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  
   display: flex;
-  
   align-items: center;
-  
-  
-  
 }
 img {
   display: flex;
@@ -371,7 +360,6 @@ img {
   line-height: 1.5;
   font-family: sans-serif;
   background-color: #fff;
-
   box-shadow: 0 2.8px 2.2px red, 0 6.7px 5.3px blue, 0 12.5px 10px green,
     0 22.3px 17.9px purple, 0 41.8px 33.4px orange, 0 100px 80px teal;
 }
@@ -386,8 +374,7 @@ img {
 }
 /*<----------------------------------------------->*/
 .pictureLoremIpsum {
-  
-  background: #F5F4FA;
+  background: #f5f4fa;
   align-items: center;
   justify-content: center;
   border-radius: 4px;
@@ -395,7 +382,6 @@ img {
   padding-bottom: 25px;
   padding-top: 25px;
 }
-
 .ourCustomers {
   padding-bottom: 50px;
   padding-left: 0;
@@ -405,7 +391,6 @@ img {
   justify-content: space-between;
   padding-left: 0;
 }
-
 .ourCustomers:nth-last-child() {
   margin-right: 0;
 }
@@ -441,7 +426,7 @@ img {
   background-color: #2196f3;
 }
 .borderMedia:hover svg,
-.borderMedia:focus svg{
+.borderMedia:focus svg {
   fill: #eeeeee;
 }
 .media {
@@ -450,7 +435,6 @@ img {
   fill: #afb1b8;
   padding: 12px;
 }
-
 .icons {
   fill: #ffffff;
   height: 44px;
@@ -479,22 +463,3 @@ h4 {
   display: flex;
   flex-wrap: wrap;
 }
-/*
-.media:hover,
-.media:focus {
-  fill: #eeeeee;
-}
-
-.borderMedia:hover svg,
-.borderMedia:focus svg{
-  background-color: #2196f3;
-  color: #2196f3;
-  
-}
-
-
-
-
-
-
-
