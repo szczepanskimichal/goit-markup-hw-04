@@ -71,7 +71,9 @@ body {
 .tel1:focus,
 .link:focus {
   color: #2196f3;
-  fill: #2196f3;
+  svg {
+    fill: color: #2196f3;
+  }
 }
 a {
   text-decoration: none;
@@ -476,8 +478,8 @@ img {
   width: 44px;
   padding: 12px;
 }
-.media:hover,
-.media:focus {
+.media::after,
+.media::before {
   fill: #eeeeee;
 }
 .borderMedia {
@@ -487,14 +489,12 @@ img {
   border-radius: 50%;
   display: flex;
   
+  
 }
 .borderMedia:hover,
 .borderMedia:focus {
   background-color: #2196f3;
   color: #2196f3;
-  svg {
-    fill: color: #2196f3;
-  }
 }
 h4 {
   font-weight: 700;
@@ -502,6 +502,7 @@ h4 {
   line-height: 1.2;
   text-align: center;
 }
+
 .joinUs {
   margin-top: 10px;
   margin-left: 70px;
