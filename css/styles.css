@@ -237,7 +237,6 @@ h2 {
   padding: 0 15px;
   align-self: center;
   align-items: center;
-  display: center;
 }
 .containerHeader {
   max-width: 1200px;
@@ -245,6 +244,13 @@ h2 {
   padding: 24px 25px;
   display: flex;
   justify-content: space-between;
+}
+.containerPrimary-box {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 15px;
+  align-self: center;
+  align-items: center;
 }
 .primary-box {
   max-width: 1600px;
@@ -321,6 +327,7 @@ h2 {
 }
 .item2Shadow:hover,
 .item2Shadow:focus {
+  cursor: pointer;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -394,12 +401,15 @@ img {
 .ourCustomers:nth-last-child() {
   margin-right: 0;
 }
+.customersBorder {
+  display: flex;
+}
 .customers {
   fill: rgba(175, 177, 184, 1);
   width: 170px;
   height: 92px;
-  border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
+  border: 1px solid rgba(175, 177, 184, 1);z
   cursor: pointer;
   align-items: center;
   justify-content: center;
